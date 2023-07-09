@@ -1,0 +1,98 @@
+/*
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+html, body {
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 12px;
+    background: linear-gradient(to left, #348a58, #2e99b4);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.header__logo {
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.logo__btn {
+    color: #3dc0d1;
+}
+
+/* /Header */
+
+/* Weather */
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.weather__content {
+    border-radius: 20px;
+    background: linear-gradient(to left, #2e99b4, #b3ccbd);
+    width: 400px;
+    height: 450px;
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.weather__content--about {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: #c2d8e6;
+}
+
+.weather__content--city {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.weather__content--temp {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.weather__content--weathnow {
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+/* /Weather */

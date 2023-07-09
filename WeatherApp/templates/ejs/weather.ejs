@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+<link rel="stylesheet" href="/css/weather.css">
+
+<header class="header">
+    <div class="header__logo"><a href="/" class="logo__btn">KrasnodarOnline</a></div>
+</header>
+
+<section class="weather">
+    <div class="weather__content">
+        <h1 class="weather__content--about">Карточка о погоде</h1>
+        <h1 class="weather__content--city">Город - Краснодар</h1>
+        <h1 class="weather__content--temp">Температура - <%= temp %>°C</h1>
+        <h1 class="weather__content--weathnow">Погода - <%= weathernow %></h1>
+    </div>
+</section>
+
+<%- include('footer'); -%>
